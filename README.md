@@ -5,7 +5,7 @@ This repository contains the complete solution for the AI Assignment, structured
 
 ## 📂 Repository Structure
 * **`Task1.ipynb`**: Source code for the Name Matching System (Task 1).
-* **`recipe_chatbot.ipynb`**: Source code for the Fine-Tuned Recipe LLM & Chatbot (Task 2).
+* **`Recipe_Chatbot.ipynb`**: Source code for the Fine-Tuned Recipe LLM & Chatbot (Task 2).
 * **`names_dataset.csv`**: The dataset containing name variations used in Task 1.
 * **`README.md`**: Project documentation and setup guide.
 
@@ -32,7 +32,7 @@ To build a system that identifies and ranks similar names from a dataset, handli
 ---
 
 ## 🍳 Task 2: Recipe Generation Chatbot
-**File:** `recipe_chatbot.ipynb`
+**File:** `Recipe_Chatbot.ipynb`
 
 ### Objective
 To fine-tune a local LLM on a recipe dataset and expose it via a Chatbot interface that suggests recipes based on user ingredients.
@@ -46,7 +46,7 @@ To fine-tune a local LLM on a recipe dataset and expose it via a Chatbot interfa
 ### How to Run (Google Colab Recommended)
 *Note: Task 2 requires a GPU. If using Google Colab, select **Runtime > Change runtime type > T4 GPU**.*
 
-1.  Open `recipe_chatbot.ipynb`.
+1.  Open `Recipe_Chatbot.ipynb`.
 2.  Run the installation cells to set up `transformers`, `peft`, `bitsandbytes`, and `trl`.
 3.  Execute the **Training Cell** to fine-tune the model on the recipe data (Training takes approx. 1-2 minutes).
 4.  Execute the **Inference/Chat Cell**.
