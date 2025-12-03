@@ -48,9 +48,10 @@ To fine-tune a local LLM on a recipe dataset and expose it via a Chatbot interfa
 
 1.  Open `Recipe_Chatbot.ipynb`.
 2.  Run the installation cells to set up `transformers`, `peft`, `bitsandbytes`, and `trl`.
-3.  Execute the **Training Cell** to fine-tune the model on the recipe data (Training takes approx. 1-2 minutes).
-4.  Execute the **Inference/Chat Cell**.
-5.  **Usage:**
+3.  **(CRITICAL):** Once the installation finishes, go to the top menu and click **Runtime > Restart Session** (or Restart Runtime). *This is required to load the correct library versions.*
+4.  Execute the **Training Cell** to fine-tune the model on the recipe data (Training takes approx. 1-2 minutes).
+5.  Execute the **Inference/Chat Cell**.
+6.  **Usage:**
     * **User Input:** `Egg, Onion`
     * **Bot Output:**
         ```text
