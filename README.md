@@ -4,7 +4,7 @@
 This repository contains the complete solution for the AI Assignment, structured into two distinct tasks. The project demonstrates the use of Vector Search for text similarity and Fine-Tuning Large Language Models (LLMs) for domain-specific tasks.
 
 ## 📂 Repository Structure
-* **`task1.ipynb`**: Source code for the Name Matching System (Task 1).
+* **`Task1.ipynb`**: Source code for the Name Matching System (Task 1).
 * **`recipe_chatbot.ipynb`**: Source code for the Fine-Tuned Recipe LLM & Chatbot (Task 2).
 * **`names_dataset.csv`**: The dataset containing name variations used in Task 1.
 * **`README.md`**: Project documentation and setup guide.
@@ -12,7 +12,7 @@ This repository contains the complete solution for the AI Assignment, structured
 ---
 
 ## 🛠️ Task 1: Intelligent Name Matching
-**File:** `task1.ipynb`
+**File:** `Task1.ipynb`
 
 ### Objective
 To build a system that identifies and ranks similar names from a dataset, handling spelling variations (e.g., mapping "Geetha" to "Gita", "Geeta").
@@ -23,7 +23,7 @@ To build a system that identifies and ranks similar names from a dataset, handli
 * **Metric:** Cosine Similarity (via Inner Product of normalized vectors).
 
 ### How to Run
-1.  Open `task1.ipynb` in Google Colab or Jupyter Notebook.
+1.  Open `Task1.ipynb` in Google Colab or Jupyter Notebook.
 2.  Ensure `names_dataset.csv` is in the same directory (or uploaded to Colab).
 3.  Run the cells sequentially.
 4.  **Input:** Enter a name when prompted (e.g., `Geetha`).
